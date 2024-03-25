@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Add your CSS styles here */
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navigation bar styles */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.right {
+  float: right;
+}
+
+/* Card styles */
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Fake image styles */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+
+/* Sidebar styles */
+.sidebar {
+  float: right;
+  width: 90%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.sidebar .card {
+  margin-top: 20px;
+}
+
+.sidebar img {
+  width: 100%;
+}
+
+.container {  
+  width: 100%; /* Set container width to 100% */  
+  overflow: hidden; /* Clear floats to prevent content overflow */  
+}  
+
+.leftcolumn {  
+  float: left;  
+  width: 80%; /* Adjust width to ensure total width of left and right columns doesn't exceed 100% and leave space for padding */  
+  padding: 20px; /* Adjust padding as needed */  
+  box-sizing: border-box; /* Ensure width includes padding and border */ 
+  min-height: 500px; /* Set a minimum height */  
+}  
+
+.rightcolumn {  
+  float: right;  
+  width: 20%; /* Adjust width to ensure total width of left and right columns doesn't exceed 100% and leave space for padding */  
+  padding: 20px; /* Adjust padding as needed */  
+  box-sizing: border-box; /* Ensure width includes padding and border */  
+}  
+
+.container:after {  
+  content: "";  
+  display: table;  
+  clear: both;  
+}  
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>My Project</p>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="about1.html">About</a>
+  <a href="project.html">Project</a>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Project Page</h2>
+      <p>Here are my popular post.</p>
+      <img src="project1.jpg" alt="Popular Post Image" width="150" height="200">
+      <img src="project2.jpg" alt="Popular Post Image" width="150" height="200">
+      <img src="project3.jpg" alt="Popular Post Image" width="150" height="200">
+      <img src="project4.jpg" alt="Popular Post Image" width="150" height="200">
+      <img src="project5.jpg" alt="Popular Post Image" width="150" height="200">
+      <img src="project6.jpg" alt="Popular Post Image" width="150" height="200">
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="sidebar">
+      <div class="card">
+        <h2>Follow Me</h2>
+        <p>Email: 1939938621@qq.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <p>Kitty &copy; 2023</p>  
+</div>
+
+</body>
+</html>

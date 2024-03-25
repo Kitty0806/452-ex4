@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+/* Add your CSS styles here */
+
+/* Header styles */
+.header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Navigation bar styles */
+.topnav {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.right {
+  float: right;
+}
+
+/* Card styles */
+.card {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 20px;
+}
+
+/* Fake image styles */
+.fakeimg {
+  background-color: #aaa;
+  width: 100%;
+  padding: 20px;
+}
+
+/* Footer styles */
+.footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  clear: both;
+}
+
+/* Sidebar styles */
+.sidebar {
+  float: right;
+  width: 90%; /* Adjust the width as needed */
+  padding: 20px;
+}
+
+.sidebar .card {
+  margin-top: 20px;
+}
+
+.sidebar img {
+  width: 100%;
+}
+.container {  
+  width: 100%; 
+  overflow: hidden; 
+}
+.leftcolumn {  
+  float: left;  
+  width: 80%;   
+  padding: 20px; 
+  box-sizing: border-box; 
+  min-height: 500px;  
+}  
+  
+.rightcolumn {  
+  float: right;  
+  width: 20%; 
+  padding: 20px; 
+  box-sizing: border-box; 
+}  
+  
+ 
+.container:after {  
+  content: "";  
+  display: table;  
+  clear: both;  
+}  
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>My Website</h1>
+  <p>Home</p>
+</div>
+
+<div class="topnav">
+  <a href="home.html">Home</a>
+  <a href="about1.html">About</a>
+  <a href="project.html">Project</a>
+  <a class="right" href="#">Contact</a>
+</div>
+
+<div class="container">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Hello I am Kitty.</h2>
+      <h5>My name is Kitty, Lu Yifei. Welcome to my website.</h5>
+      <div class="fakeimg" style="height:200px;"><img src="my1.jpg" alt="Image" style="width: 400px; height: 200px;"><img src="my2.jpg" alt="Image" style="width: 400px; height: 200px;"></div>
+      <p>This is my popular post.</p>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="sidebar">
+      <div class="card">
+        <h2>About Me</h2>
+        <img src="about.jpg" alt="About Me Image">
+        <p>Hi, I am Kitty</p>
+      </div>
+      <div class="card">
+        <h2>Popular Post</h2>
+        <img src="project1.jpg" alt="Popular Post Image">
+        <img src="project2.jpg" alt="Popular Post Image">
+        <p>Some popular post content goes here.</p>
+      </div>
+      <div class="card">
+        <h2>Follow Me</h2>
+        <p>Email: 1939938621@qq.com</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="footer">
+    <p>Kitty &copy; 2023</p>  
+</div>
+
+</body>
+</html>
